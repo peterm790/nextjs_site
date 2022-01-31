@@ -4,7 +4,8 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  min-width: 80vw;
+  padding: repeat(4, 0.5px);
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -28,9 +29,12 @@
   flex-grow: 1;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.bannercontainer {
+  display: inline-block;
+  width: 100vw;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .title a:hover,
@@ -45,6 +49,13 @@
   font-size: 4rem;
 }
 
+.title2XL {
+  margin: 0;
+  line-height: 2.3;
+  font-size: 10rem;
+  text-align: center;
+}
+
 .title,
 .description {
   text-align: center;
@@ -54,7 +65,16 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  max-width: 50em;
 }
+
+.bulktext {
+  margin: 1rem 0;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  max-width: 80em;
+}
+
 
 .code {
   background: #fafafa;
@@ -70,19 +90,73 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 90vw;
 }
 
+
 .card {
-  margin: 1rem;
-  padding: 1.5rem;
+  font-size: 0.5rem;
+  margin: 0.5rem;
+  padding: 1rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  width: 80vw;
+}
+
+.img{
+  position: block
+}
+
+.img:hover {
+  transform: scale(1.4);
+}  
+
+\\.img:hover .imgspan{
+  display: inherit;
+}
+
+.imgspan {
+  display: none;
+  position: absolute;
+  bottom: 10;
+  width: 80%;
+  padding: 1px;
+  font-size: 0.5rem;
+  text-align: center;
+}
+
+.imgspanbig {
+  display: block;
+  position: relative;
+  bottom: 10;
+  width: 75vw;
+  padding: 1px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+.griditem {
+  position: 'fixed';
+  width: '500px';
+  height: '500px';
+  background: red;
+}
+
+.figbox{
+  width:30vw;
+  position:inherit;
+  background:blue;
 }
 
 .card:hover,
@@ -113,4 +187,60 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+
+.imagebox {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
+.ulH {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.liHa {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 2rem;
+  text-decoration: none;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.liHb {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 2rem;
+  text-decoration: none;
+  font-size: 2rem;
+  text-align: center;
+  color:rgb(79, 132, 192);
+}
+
+.liHa:hover {
+  color:rgb(79, 132, 192);
+}
+
+.navlink {
+  text-decoration: none;
+}
+
+.linkBIG {
+  color: blue;
+  font-size: 1.4rem;
+}
+
+.linkSMALL {
+  color: blue;
+  font-size: 1.25rem;
 }
