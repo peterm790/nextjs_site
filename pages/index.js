@@ -23,7 +23,7 @@ export default function Home() {
             <Link href ="/CV">
             <a className={styles.card}>
               <h2>Curriculum Vitae &rarr;</h2>
-              <p>A short summary of my personal and academic achievements and previous work experience</p>
+              <p><em>A short summary of my personal and academic achievements and previous work experience</em></p>
             </a>
             </Link>
 
@@ -38,7 +38,7 @@ export default function Home() {
             <Link href = "/wrf">
             <a className={styles.card}>
               <h2>High Resolution WRF forecast &rarr;</h2>
-              <p>This is an operational 1km WRF downscaling of the GFS forecast. Run entirely from my personal computer and deployed as a python widget. </p>
+              <p><em>This is an operational 1km WRF downscaling of the GFS forecast. Run entirely from my personal computer and deployed as a python widget. </em></p>
             </a>
             </Link>
 
