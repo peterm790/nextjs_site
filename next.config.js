@@ -1,4 +1,7 @@
 module.exports = {
+  env: {
+    googleAnalyticsID: "G-MP6QJTQZK3"
+  }
   reactStrictMode: true,
   future: {
     webpack5: true
