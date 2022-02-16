@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    googleAnalyticsID: "G-MP6QJTQZK3"
+    googleAnalyticsID: "UA-220439893-1"
   }
   reactStrictMode: true,
   future: {
