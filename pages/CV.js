@@ -61,7 +61,7 @@ export default function CV() {
             <li>
             Modern Web Construction
                 <ul>
-                    <li>I have recently taken time to understand the tools used for construction modern websites, creating a simple personal website (this website!) utilising Next.js a react based framework gaining experience working with html, CSS and JavaScript.  </li>
+                    <li>I have recently taken time to understand the tools used for construction modern websites, creating a simple personal website utilising Next.js a react based framework gaining experience working with html, CSS and JavaScript.  </li>
                 </ul>
             </li>
             <li>
