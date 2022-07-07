@@ -28,6 +28,21 @@ export default function CV() {
         </ul>
         </p>
         <p>
+            Employment History
+            <ul>
+                <li>
+                    University of Cape Town demonstrator/Tutor
+                    <ul>
+                        <li>EGS1005f: Introduction to Environmental Assessment & management for final year Civil Engineering Students. 2020 </li>
+                    </ul>
+                </li>
+                <li>U/16 Rowing Coach 2015/16 at SACS high school. </li>
+                <li>2018-2021 I have worked for various Sailing teams, preparing and maintaining yachts, organising crew and facilitating deliveries of yachts.   </li>
+                <li>2022-Present Google Summer of Code Contributor: Working for the Integrated
+                    Ocean Observing System (IOOS) on the open-source python software <a href =  'https://github.com/fsspec/kerchunk'> Kerchunk.</a> </li>
+            </ul>
+        </p>
+        <p>
             Technical Skills
         <ul>
             <li>
@@ -89,19 +104,6 @@ export default function CV() {
                 </ul>
             </li>
         </ul>
-        </p>
-        <p>
-            Employment History
-            <ul>
-                <li>
-                    University of Cape Town demonstrator/Tutor
-                    <ul>
-                        <li>EGS1005f: Introduction to Environmental Assessment & management for final year Civil Engineering Students. 2020 </li>
-                    </ul>
-                </li>
-                <li>U/16 Rowing Coach 2015/16 at SACS </li>
-                <li>2018-present I have worked for various Sailing teams, preparing and maintaining yachts, organising crew and facilitating deliveries of yachts.   </li>
-            </ul>
         </p>
         <p>
             Notable Achievements
