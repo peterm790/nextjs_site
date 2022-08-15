@@ -11,7 +11,7 @@ export default function CV() {
         </Head>
         <section className={utilStyles.headingMd}>
         <p>
-        Academic Qualifications
+        Education
         <ul>
             <li>
             National Senior Certificate (2014) <em>South African College of Schools (SACS)</em> 74%
@@ -31,15 +31,20 @@ export default function CV() {
             Employment History
             <ul>
                 <li>
+                    2022-Present Google Summer of Code Contributor: Working for the Integrated Ocean Observing System (IOOS) on the open-source python software <a href =  'https://github.com/fsspec/kerchunk'> Kerchunk.</a>. Here I have created and expanded existing documentation. Helped users trouble shoot and understand existing limitation. Contributed to the code infrastructure through optimisation and creating efficient convenience functions. Most recently I have collaborated with IOOS to transition LiveOcean forecast data away from existing API and server based dissemination methods to instead use Kerchunk to create reference files, allowing users to open virtual datasets directly in python in a serverless manor.
+                </li>
+                <li>
                     University of Cape Town demonstrator/Tutor
                     <ul>
                         <li>EGS1005f: Introduction to Environmental Assessment & management for final year Civil Engineering Students. 2020 </li>
                     </ul>
                 </li>
-                <li>U/16 Rowing Coach 2015/16 at SACS high school. </li>
-                <li>2018-2021 I have worked for various Sailing teams, preparing and maintaining yachts, organising crew and facilitating deliveries of yachts.   </li>
-                <li>2022-Present Google Summer of Code Contributor: Working for the Integrated
-                    Ocean Observing System (IOOS) on the open-source python software <a href =  'https://github.com/fsspec/kerchunk'> Kerchunk.</a> </li>
+                <li>
+                    2018-2021 I have worked for various Sailing teams, preparing and maintaining yachts, organising crew and facilitating deliveries of yachts. This includes both high
+                </li>
+                <li>
+                    U/16 Rowing Coach at SACS 2015/16. Here my responsibilities included designing and facilitating a demanding training program, coordination with students and parents to manage transport and maintaining equipment to ensure an effective and time efficient training sessions. This culminated in the U16A four being top placed team in the province and 4th placed at the National Championships.
+                </li>
             </ul>
         </p>
         <p>
@@ -50,27 +55,30 @@ export default function CV() {
                 <ul>
                     <li>Data cleaning and analysis; utilising ReGex techniques for data cleaning and pandas for data frame management and manipulation. </li>
                     <li>Big data analysis of large multi-dimensional spatial arrays; utilising xarray to facilitate lazy-loading of large arrays where RAM is a limiting factor. </li>
-                    <li>Multi-threading and algorithm optimization to facilitate complex operations across large datasets utilising inbuilt python .map() functions as well as dask optimizations.  </li>
+                    <li>Parallel computations and multi-threading and algorithm optimization to facilitate complex operations across large datasets utilising dask.  </li>
+                    <li>Sharing code and collaborating with colleagues using jupyter notebooks as well as jupyterlab and Qhub for working and collaborating on remote computing facilities. </li>
+                    <li>Starting and scaling remote clusters from within python using custom scripts.</li>
+                    <li>Remote/Cloud file management and credential management utilising fsspec. </li>
                     <li>Statistical modelling and machine learning; utilising packages such as TensorFlow and scikit-learn to construct prediction models of spatial and/or timeseries data. As well as constructing bespoke models such as a cold front identification algorithm developed for my master&apos;s thesis.  </li>
                     <li>Data-Visualization; construction of detailed high-resolution plots utilising matplotlib as well as construction of geospatial plots using cartopy projections. </li>
-                    <li>Dashboard construction; construction of pythonic dashboards for visualization of real time data using packages such as ipywidgets, plotly, holoviz and streamlit.  </li>
-                    <li>Sharing code and collaborating with colleagues using jupyter notebooks  as well as jupyterlab for working on remote computing facilities.</li>
+                    <li>Dashboard construction; construction of pythonic dashboards for visualization of real time data using packages such as ipywidgets, plotly, holoviz, datashader and streamlit.  </li>
                 </ul>
             </li>
             <li>
             Linux/Unix
                 <ul>
-                    <li>Navigating Unix based operating systems via the command line, where my preference is navigation via the command line rather than GUI alternatives. </li>
+                    <li>Navigating Unix based operating systems via command line. </li>
                     <li>Managing virtual environments necessary for working across multiple different operating systems and computing facilities. </li>
                     <li>Batch scripting and resource management utilising tools such as slurm.  </li>
+                    <li>Scheduling scripts via contab. </li>
                 </ul>
             </li>
             <li>
             Numerical Weather Prediction
                 <ul>
                     <li>Fortran; Initially through my Atmospheric Science Honours course where we constructed a basic physics model using fortran. </li>
-                    <li>WRF model; I have operationalised a 1km WRF downscaling for the Cape Town region. The model is run on my personal computer and is initialised from the 18z GFS forecast and provides a 36 hour forecast. I use a python dashboard to share forecast data.  </li>
-                    <li>Experience working with and manipulating common weather data formats such as GRIB, NetCDF and Zarray&apos;s as well as manipulating these files using tools such as NCO, CDO and ferret. </li>
+                    <li>Dynamic Atmospheric Simulation Modelling: I have operationalised a 1km resolutions weather model downscaling for the Cape Town region. This WRF based model is run on my personal computer and is initialised from the 18z GFS forecast and supplies a 36-hour forecast. I use a python dashboard to share forecast data.    </li>
+                    <li>Experience working with and manipulating common weather data formats such as GRIB, NetCDF and Zarrays as well as manipulating these files using tools such as NCO, CDO and ferret.  And more recently understanding and mapping the internal storage patterns of these data formats through Kerchunk.  </li>
                 </ul>
             </li>
             <li>
@@ -89,12 +97,14 @@ export default function CV() {
             Version control
                 <ul>
                     <li>Experience using git and github to manage and version control code.   </li>
+                    <li>Forking and creating pull requests to operational software. </li>
+                    <li>Creating and storing docker images as github packages, used to run scripts across different compute resources. </li>
                 </ul>
             </li>
             <li>
             R
                 <ul>
-                    <li>My preference for statistical analysis has shifted towards python, however I have previous experience with R and more recently utilising R for rayshading to create realistic plots from terrain height data.</li>
+                    <li>My preference for statistical analysis has shifted towards python, however I have previous experience with R and more recently utilising R for rayshading to create realistic plots from terrain height data. Through this I have experience working with and manipulating GEOTIFF and TIFF data formats.  </li>
                 </ul>
             </li>
             <li>
