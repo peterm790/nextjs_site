@@ -24,6 +24,14 @@ export default function CV() {
             </li>
             <li>
             MSc Atmospheric Science, <em>University of Cape Town</em> (2019-2021) 	74%
+                <ul>
+                    <li>My Master’s dissertation titled: “A CMIP5 Model Selection Specific to South
+                        Africa’s Winter Rainfall Zone”. Examined a method to subsample a large
+                        ensemble of climate models to produce a smaller and more regionally
+                        realistic subsample while preserving the independence of the original
+                        ensemble and ultimately reduce the range of future climate projections in
+                        the winter rainfall zone of South Africa. </li>
+                </ul>
             </li>
         </ul>
         </p>

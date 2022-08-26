@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
+import global from '../styles/globals.css'
 
 import * as ga from '../lib/ga'
 
@@ -21,7 +22,7 @@ function MyApp({ Component, pageProps }) {
     }
   }, [router.events])
 
-  return <Component {...pageProps} />
+  return <Component {...pageProps}  className={global.body} />
 }
 
 export default MyApp

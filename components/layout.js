@@ -26,10 +26,10 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/pp.jpg"
+              src="/pp2.jpg"
               className={utilStyles.borderCircle}
-              height={313}
-              width={288}
+              height={255}
+              width={270}
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
