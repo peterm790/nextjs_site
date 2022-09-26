@@ -27,6 +27,13 @@ export default function Home() {
             </a>
             </Link>
 
+            <Link href ="https://medium.com/pangeo/accessing-netcdf-and-grib-file-collections-as-cloud-native-virtual-datasets-using-kerchunk-625a2d0a9191">
+            <a className={styles.card}>
+              <h2>Accessing NetCDF and GRIB file collections as cloud-native virtual datasets using Kerchunk &rarr;</h2>
+              <p><em>An article I wrote following the work I did during my time as a Google Summer of Code contributor working on the open source python package Kerchunk</em></p>
+            </a>
+            </Link>
+
 
             <Link href ="/masters/abstract">
             <a className={styles.card}>
