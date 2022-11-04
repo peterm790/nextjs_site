@@ -23,14 +23,21 @@ export default function Home() {
             <Link href ="/CV">
             <a className={styles.card}>
               <h2>Curriculum Vitae &rarr;</h2>
-              <p><em>A short summary of my personal and academic achievements and previous work experience</em></p>
+              <p><em>A short summary of my personal and academic achievements and previous work experience.</em></p>
             </a>
             </Link>
 
             <Link href ="https://medium.com/pangeo/accessing-netcdf-and-grib-file-collections-as-cloud-native-virtual-datasets-using-kerchunk-625a2d0a9191">
             <a className={styles.card}>
               <h2>Accessing NetCDF and GRIB file collections as cloud-native virtual datasets using Kerchunk &rarr;</h2>
-              <p><em>An article I wrote following the work I did during my time as a Google Summer of Code contributor working on the open source python package Kerchunk</em></p>
+              <p><em>An article I wrote following the work I did during my time as a Google Summer of Code contributor working on the open source python package Kerchunk.</em></p>
+            </a>
+            </Link>
+
+            <Link href ="https://github.com/peterm790/weather_routing/">
+            <a className={styles.card}>
+              <h2>A Pure Python Weather Routing Package &rarr;</h2>
+              <p><em>Frustrated with the fact that most commercially available weather routing programs only take GRIB files as input, I have built a relatively light weight python weather routing tool that takes any data accessible by Xarray as input. </em></p>
             </a>
             </Link>
 
@@ -38,7 +45,7 @@ export default function Home() {
             <Link href ="/masters/abstract">
             <a className={styles.card}>
               <h2>Master&apos;s Thesis &rarr;</h2>
-              <p><em>A CMIP5 Model Selection Specific to South Africa&apos;s Winter Rainfall Zone</em></p>
+              <p><em>A CMIP5 Model Selection Specific to South Africa&apos;s Winter Rainfall Zone.</em></p>
             </a>
             </Link>
 
