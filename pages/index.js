@@ -41,11 +41,10 @@ export default function Home() {
             </a>
             </Link>
 
-
             <Link href ="https://peterm790-streamlit-weather-router-home-7mj8jm.streamlit.app/">
             <a className={styles.card}>
               <h2>A Streamlit Web App To Interact With The Above Routing Algorithm &rarr;</h2>
-              <p><em>Streamlit is a cool new tool that allows users to quickly build pythonic web apps. I have used this to create a web app to interact with the Weather Routing Package. Streamlit apps need to be fairly light weight and as such the actual routing computation is implemented as a asynchronous AWS Lambda function </em></p>
+              <p><em>Streamlit is a cool new tool that allows users to quickly build pythonic web apps. I have used this to create a web app to interact with the Weather Routing Package. Streamlit apps need to be fairly light weight and as such the actual routing computation is implemented as an asynchronous AWS Lambda function </em></p>
             </a>
             </Link>
 
