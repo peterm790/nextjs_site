@@ -20,7 +20,7 @@ export default function wrf() {
             <Image src="/weather_crop.png" alt="Weather Simulation" layout='intrinsic' width = {900} height = {750}/>
         </div>
         <p className={styles.bulktext}>
-            To view the live version of the above screenshot please follow the <a className = {styles.linkBIG} href = 'http://petes.zapto.org:8866' > link. </a> (http://petes.zapto.org:8866 - or copy this link and paste into your browser) [The host server has had a storage failure, please be patient while I fix this - (April 2022)]
+            To view the live version of the above screenshot please follow the <a className = {styles.linkBIG} href = 'http://petes.zapto.org:8866' > link. </a> (http://petes.zapto.org:8866 - or copy this link and paste into your browser) [The host server has had a storage failure so unfortunately this is no longer running (April 2022)]
         </p>
         <p className={styles.bulktext}>
             Please note this is a link to a private dashboard without a valid SSL certificate and as such your browser may display a warning. Further the site will be unavavailable during <a className = {styles.linkSMALL} href = 'https://www.capetown.gov.za/Family%20and%20home/Residential-utility-services/Residential-electricity-services/Load-shedding-and-outages' > load shedding.</a> 
