@@ -14,7 +14,7 @@ export default function abstract() {
         <h1 className = {utilStyles.heading2Xltoo}>
             A CMIP5 Model Selection Specific to South Africa&apos;s Winter Rainfall Zone
         </h1>
-        <h2><p>OpenUCT Article Link: <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">www.example.com</a></p></h2>
+        <h2><p><a href="http://hdl.handle.net/11427/37614" target="_blank" rel="noopener noreferrer">OpenUCT Article Link</a></p></h2>
         <Nav selected = 'Abstract'/>
         <Abstract/>
         </Layout>
