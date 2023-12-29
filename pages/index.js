@@ -30,7 +30,7 @@ export default function Home() {
             <Link href = "/poster">
             <a className={styles.card}>
               <h2>DS-I Africa Poster Presentation &rarr;</h2>
-              <p><em>A copy of my poster titled "Accelerating Data Harmonisation Using Modern Data Science Tools" which I presented at the 3rd DS-I Africa Consortium Meeting in Kigali, Rwanda.</em></p>
+              <p><em>A copy of my poster titled &apos;Accelerating Data Harmonisation Using Modern Data Science Tools&apos; which I presented at the 3rd DS-I Africa Consortium Meeting in Kigali, Rwanda.</em></p>
             </a>
             </Link>
 
