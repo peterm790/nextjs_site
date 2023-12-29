@@ -27,6 +27,13 @@ export default function Home() {
             </a>
             </Link>
 
+            <Link href = "/poster">
+            <a className={styles.card}>
+              <h2>DS-I Africa Poster Presentation &rarr;</h2>
+              <p><em>A copy of my poster titled "Accelerating Data Harmonisation Using Modern Data Science Tools" which I presented at the 3rd DS-I Africa Consortium Meeting in Kigali, Rwanda.</em></p>
+            </a>
+            </Link>
+
             <Link href ="https://medium.com/pangeo/accessing-netcdf-and-grib-file-collections-as-cloud-native-virtual-datasets-using-kerchunk-625a2d0a9191">
             <a className={styles.card}>
               <h2>Accessing NetCDF and GRIB file collections as cloud-native virtual datasets using Kerchunk &rarr;</h2>
@@ -43,7 +50,7 @@ export default function Home() {
 
             <Link href ="https://peterm790-cape-2-rio-tracker-home-6learv.streamlit.app/">
             <a className={styles.card}>
-              <h2>A Streamlit Web App Using The Weather Routing Package To The Predict Finish Times In The Cape to Rio Race &rarr;</h2>
+              <h2>A Streamlit Web App Using The Weather Routing Package To Predict Finish Times In The Cape to Rio Race &rarr;</h2>
               <p><em> I have used streamlit to create a web app that predicts the finishing order of the Cape to Rio Yacht Race. The app relies upon a series of severless function to first use Kerchunk to allow efficient access to the latest GFS weather forecast, before web scraping the positions of each boat from the official tracker and then routing each boat individually to the finish. This allows users to get a better idea of the current ranking in the race and visualize the upcoming weather conditions for each boat. </em></p>
             </a>
             </Link>

@@ -39,16 +39,22 @@ export default function CV() {
             Employment History
             <ul>
                 <li>
-                    2022-Present Google Summer of Code Contributor: Working for the Integrated Ocean Observing System (IOOS) on the open-source python software <a href =  'https://github.com/fsspec/kerchunk'> Kerchunk.</a>. Here I have created and expanded existing documentation. Helped users trouble shoot and understand existing limitation. Contributed to the code infrastructure through optimisation and creating efficient convenience functions. Most recently I have collaborated with IOOS to transition LiveOcean forecast data away from existing API and server based dissemination methods to instead use Kerchunk to create reference files, allowing users to open virtual datasets directly in python in a serverless manor.
+                    2023 - present Junior Research Fellow – University of Cape Town: Working for the Climate Systems Analysis Group as a Data Scientist on the DSI-Africa HE2AT Center project. My work in this role has centred on providing tools to a multi-disciplinary team of health and climate researchers. This has included creating analysis-ready land-surface temperature datasets from MODIS and Meteosat products, using Zarr. Using Intake catalogues and Kerchunk to abstract away from the HPC filesystem allowing easier access to reanalysis and station based climate products from within a JupyterLab based analysis platform. More recently my work has focused on the retrospective health data harmonisation process. This has involved creating standardised data and metadata formats and building a Streamlit based GUI to facilitate matching of study variables to a target codebook. Other exploratory work has included using Large Language Models to automate the data harmonisation process. 
                 </li>
                 <li>
-                    University of Cape Town demonstrator/Tutor
+                    2022 Research Assistant - University of Cape Town: Working for the Climate Systems Analysis Group on the Focus Africa project. I contributed to a report on the assessment of ENSO and IOD teleconnections in the Lake Malawi Catchment utilising a full ensemble of CMIP6 models. 
+                </li>
+                <li>
+                    2022 Google Summer of Code Contributor: Working for the Integrated Ocean Observing System (IOOS) on the open-source python software <a href =  'https://github.com/fsspec/kerchunk'> Kerchunk.</a>. Here I have created and expanded existing documentation. Helped users trouble shoot and understand existing limitation. Contributed to the code infrastructure through optimisation and creating efficient convenience functions. Most recently I have collaborated with IOOS to transition LiveOcean forecast data away from existing API and server based dissemination methods to instead use Kerchunk to create reference files, allowing users to open virtual datasets directly in python in a serverless manor.
+                </li>
+                <li>
+                    2020 - 2021 University of Cape Town demonstrator/Tutor
                     <ul>
-                        <li>EGS1005f: Introduction to Environmental Assessment & management for final year Civil Engineering Students. 2020 </li>
+                        <li>o	EGS1005f: Introduction to Environmental Assessment & management for final year Civil Engineering Students. 2020. Facilitating practical and tutorial sessions and marking of examinations.</li>
                     </ul>
                 </li>
                 <li>
-                    2018-2021 I have worked for various Sailing teams, preparing and maintaining yachts, organising crew and facilitating deliveries of yachts. This includes both high
+                    2018-2021 I have worked for various Sailing teams, preparing and maintaining yachts, organising crew and facilitating deliveries of yachts. This includes both high performance race teams and luxury cruising yachts. 
                 </li>
                 <li>
                     U/16 Rowing Coach at SACS 2015/16. Here my responsibilities included designing and facilitating a demanding training program, coordination with students and parents to manage transport and maintaining equipment to ensure an effective and time efficient training sessions. This culminated in the U16A four being top placed team in the province and 4th placed at the National Championships.
