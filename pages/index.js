@@ -69,6 +69,13 @@ export default function Home() {
             </a>
             </Link>
 
+            <Link href = "/Turtle_Analysis_Notebook">
+             <a className={styles.card}>
+               <h2>Predicting Turtle Hatchling Strandings in the Western Cape  &rarr;</h2>
+               <p><em>I was approached by the Two Oceans Aquarium Foundation to analyse weather conditions during past turtle hatchling stranding events and investigate the feasibility of predicting such events. </em></p>
+             </a>
+             </Link>
+
           </div>
 
     </Layout>
