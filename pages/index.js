@@ -21,7 +21,7 @@ export default function Home() {
 
           <div className={styles.grid}>
 
-            <Link href ="https://wwww.petesforecast.com">
+            <Link href ="https://www.petesforecast.com/map">
             <a className={styles.card}>
               <h2>Pete&apos;s Forecast &rarr;</h2>
               <p><em>A Website to view the latest GFS weather forecast. With some beautiful windy style streamlines. Built on top of the latest web mapping tools.</em></p>
