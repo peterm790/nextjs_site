@@ -14,23 +14,24 @@ export default function Home() {
 
       <section className={utilStyles.headingMd}>
         <p className={styles.description}>
-          Welcome to my personal website. I am an Atmospheric Science graduate student from the University of Cape Town. Please find below my Curriculum Vitae, a showcase of my Master&apos;s thesis as well as various other projects I have worked on in my spare time.
+          Hello! Please find below a haphazard collection of projects I have worked on over the years.
         </p>
       </section>
 
 
           <div className={styles.grid}>
-            <Link href ="/CV">
+
+            <Link href ="https://wwww.petesforecast.com">
             <a className={styles.card}>
-              <h2>Curriculum Vitae &rarr;</h2>
-              <p><em>A short summary of my personal and academic achievements and previous work experience.</em></p>
+              <h2>Pete&apos;s Forecast &rarr;</h2>
+              <p><em>A Website to view the latest GFS weather forecast. With some beautiful windy style streamlines. Built on top of the latest web mapping tools.</em></p>
             </a>
             </Link>
 
-            <Link href = "/poster">
+            <Link href = "https://github.com/csag-uct/Metadata-Harmonisation-Tool">
             <a className={styles.card}>
-              <h2>DS-I Africa Poster Presentation &rarr;</h2>
-              <p><em>A copy of my poster titled &apos;Accelerating Data Harmonisation Using Modern Data Science Tools&apos; which I presented at the 3rd DS-I Africa Consortium Meeting in Kigali, Rwanda.</em></p>
+              <h2>A Data Harmonisation Tool &rarr;</h2>
+              <p><em>An open source tool to harmonise disparate datasets to a common ontology. Built using Streamlit and making use of the latest RAG techniques to accelerate an otherwise tedious and time consuming part of the ETL process.</em></p>
             </a>
             </Link>
 
