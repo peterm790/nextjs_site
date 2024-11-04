@@ -244,3 +244,13 @@
   color: blue;
   font-size: 1.25rem;
 }
+
+.socialLinks {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.linkedinLink:hover {
+  opacity: 0.8;
+}

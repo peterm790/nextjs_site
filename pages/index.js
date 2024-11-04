@@ -79,6 +79,14 @@ export default function Home() {
 
           </div>
 
+          <div className={styles.socialLinks}>
+            <Link href="https://www.linkedin.com/in/petermarsh790/">
+              <a className={styles.linkedinLink}>
+                <img src="/LI-In-Bug.png" alt="LinkedIn" width="36"/>
+              </a>
+            </Link>
+          </div>
+
     </Layout>
   )
 }
