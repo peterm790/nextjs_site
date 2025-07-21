@@ -42,7 +42,7 @@ export default function Home() {
             </a>
             </Link>
 
-            <Link href = "https://www.he2at.com/2025/05/30/accelerating-clinical-health-data-harmonisation-with-ai-building-the-mapping-app/">
+            <Link href = "https://www.he2at.com/2025/07/15/connecting-climate-and-health-building-shared-data-infrastructure-for-african-research/">
             <a className={styles.card}>
               <h2>A Data Science Platform Blog &rarr;</h2>
               <p><em>A blog post about building a data science ecosystem for heat and health research</em></p>
