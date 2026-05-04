@@ -98,7 +98,7 @@
   position: relative;
   font-size: 0.5rem;
   margin: 0.5rem;
-  padding: 2.75rem 1rem 1rem;
+  padding: 1rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
@@ -110,11 +110,12 @@
 
 .cardDate {
   position: absolute;
-  top: 0.9rem;
+  top: 1rem;
   right: 1rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #6b7280;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-style: italic;
+  color: inherit;
 }
 
 .img{
