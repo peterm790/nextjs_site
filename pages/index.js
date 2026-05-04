@@ -23,7 +23,7 @@ export default function Home() {
 
             <Link href ="https://offshoreweatherrouting.com">
             <a className={styles.card}>
-              <span className={styles.cardDate}>May 2026</span>
+              <span className={styles.cardDate}>Oct 2025</span>
               <h2>petesforecast (v2) + weather routing &rarr;</h2>
               <p><em>My latest side project; petesforecast 2.0 and the latest iteration of the xarray weather routing tool</em></p>
             </a>
