@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import global from '../styles/globals.css'
+import IFSBackground from '../components/IFSBackground'
 
 import * as ga from '../lib/ga'
 
@@ -22,7 +23,14 @@ function MyApp({ Component, pageProps }) {
     }
   }, [router.events])
 
-  return <Component {...pageProps}  className={global.body} />
+  return (
+    <>
+      <IFSBackground />
+      <div className="site-shell">
+        <Component {...pageProps} className={global.body} />
+      </div>
+    </>
+  )
 }
 
 export default MyApp

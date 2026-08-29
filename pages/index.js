@@ -25,16 +25,16 @@ export default function Home() {
             <Link href ="https://petesforecast.com">
             <a className={styles.card}>
               <span className={styles.cardDate}>Aug 2026</span>
-              <h2>Pete&apos;s Forecast v3 &rarr;</h2>
-              <p><em>Building on what I learned from Pete&apos;s Forecast v2, I rebuilt the platform from the ground up—preserving its smooth scrolling through forecast lead times while improving initial load times and data accuracy. The site and forecast data are served through Cloudflare, with Modal handling data processing and Icechunk enabling efficient storage, versioning and incremental writes.</em></p>
+              <h2>Pete&apos;s Forecast (v3) &rarr;</h2>
+              <p><em>Building on what I learned from Pete&apos;s Forecast (v2), I rebuilt the platform from the ground up—preserving its smooth scrolling through forecast lead times while improving initial load times and data accuracy. The site and forecast data are served through Cloudflare, with Modal handling data processing and Icechunk enabling efficient storage, versioning and incremental writes.</em></p>
             </a>
             </Link>
 
             <Link href ="https://offshoreweatherrouting.com">
             <a className={styles.card}>
               <span className={styles.cardDate}>Oct 2025</span>
-              <h2>petesforecast (v2) + weather routing &rarr;</h2>
-              <p><em>A ground-up rebuild of Pete&apos;s Forecast that introduced smooth scrolling through forecast lead times and integrated the latest iteration of my Xarray-based offshore weather-routing tools.</em></p>
+              <h2>Pete&apos;s Forecast (v2) + weather routing &rarr;</h2>
+              <p><em>A ground-up rebuild of Pete&apos;s Forecast (v2) that introduced smooth scrolling through forecast lead times and integrated the latest iteration of my Xarray-based offshore weather-routing tools.</em></p>
             </a>
             </Link>
 
@@ -57,7 +57,7 @@ export default function Home() {
             <Link href ="https://petesforecast-git-main-peterm790s-projects.vercel.app/map_old?step=0&amp;colorScheme=rainbow&amp;selectedVariable=ws">
             <a className={styles.card}>
               <span className={styles.cardDate}>Oct 2024</span>
-              <h2>Pete&apos;s Forecast &rarr;</h2>
+              <h2>Pete&apos;s Forecast (v1) &rarr;</h2>
               <p><em>A website to view the latest GFS weather forecast, featuring beautiful windy-style streamlines. Built on top of the latest web mapping tools.</em></p>
             </a>
             </Link>
@@ -135,6 +135,8 @@ export default function Home() {
               </a>
             </Link>
           </div>
+
+          <div className={styles.mapOnlyView} aria-hidden="true" />
 
     </Layout>
   )

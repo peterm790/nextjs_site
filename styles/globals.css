@@ -3,7 +3,12 @@ body {
   padding: 0;
   margin: 0;
   font-family:'Ubuntu', sans-serif;
-  background:#f6f8fa ;
+  background: #fbfaf7;
+}
+
+.site-shell {
+  position: relative;
+  z-index: 1;
 }
 
 a {
