@@ -21,15 +21,39 @@ export default function Home() {
 
           <div className={styles.grid}>
 
+            <Link href ="https://petesforecast.com">
+            <a className={styles.card}>
+              <span className={styles.cardDate}>Aug 2026</span>
+              <h2>Pete&apos;s Forecast v3 &rarr;</h2>
+              <p><em>Building on what I learned from Pete&apos;s Forecast v2, I rebuilt the platform from the ground up—preserving its smooth scrolling through forecast lead times while improving initial load times and data accuracy. The site and forecast data are served through Cloudflare, with Modal handling data processing and Icechunk enabling efficient storage, versioning and incremental writes.</em></p>
+            </a>
+            </Link>
+
             <Link href ="https://offshoreweatherrouting.com">
             <a className={styles.card}>
               <span className={styles.cardDate}>Oct 2025</span>
               <h2>petesforecast (v2) + weather routing &rarr;</h2>
-              <p><em>My latest side project; petesforecast 2.0 and the latest iteration of the xarray weather routing tool</em></p>
+              <p><em>A ground-up rebuild of Pete&apos;s Forecast that introduced smooth scrolling through forecast lead times and integrated the latest iteration of my Xarray-based offshore weather-routing tools.</em></p>
             </a>
             </Link>
 
-            <Link href ="https://www.petesforecast.com">
+            <Link href = "https://www.he2at.com/2025/07/15/connecting-climate-and-health-building-shared-data-infrastructure-for-african-research/">
+            <a className={styles.card}>
+              <span className={styles.cardDate}>Jul 2025</span>
+              <h2>A Data Science Platform Blog &rarr;</h2>
+              <p><em>A blog post about building a data science ecosystem for heat and health research</em></p>
+            </a>
+            </Link>
+
+            <Link href = "https://www.he2at.com/2025/05/30/accelerating-clinical-health-data-harmonisation-with-ai-building-the-mapping-app/">
+            <a className={styles.card}>
+              <span className={styles.cardDate}>May 2025</span>
+              <h2>A Blog About A Data Harmonisation Tool &rarr;</h2>
+              <p><em>A blog post about the above tool</em></p>
+            </a>
+            </Link>
+
+            <Link href ="https://petesforecast-git-main-peterm790s-projects.vercel.app/map_old?step=0&amp;colorScheme=rainbow&amp;selectedVariable=ws">
             <a className={styles.card}>
               <span className={styles.cardDate}>Oct 2024</span>
               <h2>Pete&apos;s Forecast &rarr;</h2>
@@ -45,27 +69,11 @@ export default function Home() {
             </a>
             </Link>
 
-            <Link href = "https://www.he2at.com/2025/05/30/accelerating-clinical-health-data-harmonisation-with-ai-building-the-mapping-app/">
+            <Link href ="https://peterm790-cape-2-rio-tracker-home-6learv.streamlit.app/">
             <a className={styles.card}>
-              <span className={styles.cardDate}>May 2025</span>
-              <h2>A Blog About A Data Harmonisation Tool &rarr;</h2>
-              <p><em>A blog post about the above tool</em></p>
-            </a>
-            </Link>
-
-            <Link href = "https://www.he2at.com/2025/07/15/connecting-climate-and-health-building-shared-data-infrastructure-for-african-research/">
-            <a className={styles.card}>
-              <span className={styles.cardDate}>Jul 2025</span>
-              <h2>A Data Science Platform Blog &rarr;</h2>
-              <p><em>A blog post about building a data science ecosystem for heat and health research</em></p>
-            </a>
-            </Link>
-
-            <Link href ="https://medium.com/pangeo/accessing-netcdf-and-grib-file-collections-as-cloud-native-virtual-datasets-using-kerchunk-625a2d0a9191">
-            <a className={styles.card}>
-              <span className={styles.cardDate}>Sep 2022</span>
-              <h2>Accessing NetCDF and GRIB file collections as cloud-native virtual datasets using Kerchunk &rarr;</h2>
-              <p><em>An article I wrote following my work as a Google Summer of Code contributor, working on the open-source Python package Kerchunk.</em></p>
+              <span className={styles.cardDate}>Dec 2022</span>
+              <h2>A Streamlit Web App Using The Weather Routing Package To Predict Finish Times In The Cape to Rio Race &rarr;</h2>
+              <p><em>I used Streamlit to create a web app that predicts the finishing order of the Cape to Rio Yacht Race. The app relies on a series of serverless functions to first use Kerchunk for efficient access to the latest GFS weather forecast, then web scrapes the positions of each boat from the official tracker, and finally routes each boat individually to the finish. This allows users to better understand the current race rankings and visualize the upcoming weather conditions for each boat.</em></p>
             </a>
             </Link>
 
@@ -77,13 +85,21 @@ export default function Home() {
             </a>
             </Link>
 
-            <Link href ="https://peterm790-cape-2-rio-tracker-home-6learv.streamlit.app/">
+            <Link href ="https://medium.com/pangeo/accessing-netcdf-and-grib-file-collections-as-cloud-native-virtual-datasets-using-kerchunk-625a2d0a9191">
             <a className={styles.card}>
-              <span className={styles.cardDate}>Dec 2022</span>
-              <h2>A Streamlit Web App Using The Weather Routing Package To Predict Finish Times In The Cape to Rio Race &rarr;</h2>
-              <p><em>I used Streamlit to create a web app that predicts the finishing order of the Cape to Rio Yacht Race. The app relies on a series of serverless functions to first use Kerchunk for efficient access to the latest GFS weather forecast, then web scrapes the positions of each boat from the official tracker, and finally routes each boat individually to the finish. This allows users to better understand the current race rankings and visualize the upcoming weather conditions for each boat.</em></p>
+              <span className={styles.cardDate}>Sep 2022</span>
+              <h2>Accessing NetCDF and GRIB file collections as cloud-native virtual datasets using Kerchunk &rarr;</h2>
+              <p><em>An article I wrote following my work as a Google Summer of Code contributor, working on the open-source Python package Kerchunk.</em></p>
             </a>
             </Link>
+
+            <Link href = "/Turtle_Analysis_Notebook">
+             <a className={styles.card}>
+               <span className={styles.cardDate}>Apr 2022</span>
+               <h2>Predicting Turtle Hatchling Strandings in the Western Cape  &rarr;</h2>
+               <p><em>I was approached by the Two Oceans Aquarium Foundation to analyze weather conditions during past turtle hatchling stranding events and investigate the feasibility of predicting such events.</em></p>
+             </a>
+             </Link>
 
             <Link href ="/masters/abstract">
             <a className={styles.card}>
@@ -100,14 +116,6 @@ export default function Home() {
               <p><em>This is an operational 1km WRF downscaling of the GFS forecast, run entirely from my personal computer and deployed as a Python widget.</em></p>
             </a>
             </Link>
-
-            <Link href = "/Turtle_Analysis_Notebook">
-             <a className={styles.card}>
-               <span className={styles.cardDate}>Apr 2022</span>
-               <h2>Predicting Turtle Hatchling Strandings in the Western Cape  &rarr;</h2>
-               <p><em>I was approached by the Two Oceans Aquarium Foundation to analyze weather conditions during past turtle hatchling stranding events and investigate the feasibility of predicting such events.</em></p>
-             </a>
-             </Link>
 
           </div>
 
