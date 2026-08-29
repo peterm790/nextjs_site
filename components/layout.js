@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import ProfileCarousel from './ProfileCarousel'
 
 const name = 'Peter Marsh'
 export const siteTitle = 'Petes Website'
@@ -24,15 +24,8 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-            <Image
-              priority
-              src="/pp2.jpg"
-              className={utilStyles.borderCircle}
-              height={255}
-              width={270}
-              alt={name}
-            />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <ProfileCarousel />
           </>
         ) : (
           <>

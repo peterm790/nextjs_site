@@ -14,7 +14,8 @@ export default function Home() {
 
       <section className={utilStyles.headingMd}>
         <p className={styles.description}>
-          Hello! This site contains a haphazard collection of projects I have worked on over the years :)
+          <span>Howsit!</span>
+          <span>Below is a haphazard collection of projects I have worked on over the years :)</span>
         </p>
       </section>
 
@@ -114,6 +115,14 @@ export default function Home() {
               <span className={styles.cardDate}>Jan 2022</span>
               <h2>High Resolution WRF forecast &rarr;</h2>
               <p><em>This is an operational 1km WRF downscaling of the GFS forecast, run entirely from my personal computer and deployed as a Python widget.</em></p>
+            </a>
+            </Link>
+
+            <Link href="/PeterMarshHonoursThesis.pdf">
+            <a className={styles.card}>
+              <span className={styles.cardDate}>Dec 2018</span>
+              <h2>A Case Study: Analysing the Relationship Between Regional Rainfall and Water Storage in Cape Town&apos;s &lsquo;Big Six&rsquo; Dams &rarr;</h2>
+              <p><em>My honours thesis investigating</em></p>
             </a>
             </Link>
 

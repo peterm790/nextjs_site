@@ -8,9 +8,12 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sync:profile-pics": "node scripts/sync-profile-carousel.mjs"
   },
   "dependencies": {
+    "embla-carousel-auto-scroll": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
     "json-loader": "^0.5.7",
     "next": "12.0.7",
     "react": "17.0.2",
