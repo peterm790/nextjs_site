@@ -4,8 +4,19 @@ import AutoScroll from 'embla-carousel-auto-scroll'
 import images from '../data/profile-images.json'
 import styles from './ProfileCarousel.module.css'
 
+function shuffleImages() {
+  const shuffled = [...images]
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1))
+    const image = shuffled[index]
+    shuffled[index] = shuffled[randomIndex]
+    shuffled[randomIndex] = image
+  }
+  return shuffled
+}
+
 export default function ProfileCarousel() {
-  const [startIndex] = useState(() => Math.floor(Math.random() * images.length))
+  const [shuffledImages] = useState(shuffleImages)
   const autoScroll = useRef(
     AutoScroll({
       playOnInit: true,
@@ -21,7 +32,6 @@ export default function ProfileCarousel() {
       align: 'center',
       dragFree: true,
       loop: true,
-      startIndex,
       watchDrag: false,
     },
     [autoScroll.current]
@@ -37,7 +47,7 @@ export default function ProfileCarousel() {
     <div className={styles.frame} aria-hidden="true">
       <div className={styles.viewport} ref={carouselRef}>
         <div className={styles.track}>
-          {images.map((image, index) => (
+          {shuffledImages.map((image, index) => (
             <div
               className={styles.slide}
               key={image.src}
@@ -48,7 +58,7 @@ export default function ProfileCarousel() {
                 alt=""
                 width={image.width}
                 height={image.height}
-                loading={index === startIndex ? 'eager' : 'lazy'}
+                loading={index === 0 ? 'eager' : 'lazy'}
                 decoding="async"
               />
             </div>

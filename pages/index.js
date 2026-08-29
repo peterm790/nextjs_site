@@ -26,7 +26,7 @@ export default function Home() {
             <a className={styles.card}>
               <span className={styles.cardDate}>Aug 2026</span>
               <h2>Pete&apos;s Forecast (v3) &rarr;</h2>
-              <p><em>Building on what I learned from Pete&apos;s Forecast (v2), I rebuilt the platform from the ground up—preserving its smooth scrolling through forecast lead times while improving initial load times and data accuracy. The site and forecast data are served through Cloudflare, with Modal handling data processing and Icechunk enabling efficient storage, versioning and incremental writes.</em></p>
+              <p><em>Another rebuild, aiming to preserve smooth scrolling through forecast lead times while improving initial load times and data accuracy. The site and forecast data are served through Cloudflare, with Modal handling data processing and Icechunk enabling efficient storage, versioning and incremental writes. Built through specs and iteration, alarmingly not a single line of code written by hand this time.</em></p>
             </a>
             </Link>
 

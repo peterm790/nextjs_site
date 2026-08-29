@@ -2,7 +2,9 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-import ProfileCarousel from './ProfileCarousel'
+import dynamic from 'next/dynamic'
+
+const ProfileCarousel = dynamic(() => import('./ProfileCarousel'), { ssr: false })
 
 const name = 'Peter Marsh'
 export const siteTitle = 'Petes Website'
