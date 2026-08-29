@@ -118,14 +118,6 @@ export default function Home() {
             </a>
             </Link>
 
-            <Link href="/PeterMarshHonoursThesis.pdf">
-            <a className={styles.card}>
-              <span className={styles.cardDate}>Dec 2018</span>
-              <h2>A Case Study: Analysing the Relationship Between Regional Rainfall and Water Storage in Cape Town&apos;s &lsquo;Big Six&rsquo; Dams &rarr;</h2>
-              <p><em>My honours thesis investigating</em></p>
-            </a>
-            </Link>
-
           </div>
 
           <div className={styles.socialLinks}>
